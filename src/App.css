@@ -1,0 +1,92 @@
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.conversor {
+    background: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem 0;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.grupo-input {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.grupo-input input {
+    width: 150px;
+    padding: 0.5rem;
+    border: 1px solid #646cff;
+    border-radius: 5px;
+    background: #242424;
+    color: white;
+}
+
+.grupo-input select {
+    padding: 0.5rem;
+    border: 1px solid #646cff;
+    border-radius: 5px;
+    background: #242424;
+    color: white;
+}
+
+.igual {
+    font: 1.5rem;
+    font-weight: bold;
+    color: #646cff;
+}
+
+.footer {
+    margin-top: auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.logo {
+    height: 3em;
+    padding: 1em;
+    will-change: filter;
+    transition: filter 300ms;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa)
+}
+
+.logo.react:hover {
+    filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@media (prefers-color-scheme: light) {
+    .conversor {
+        background: #f9f9f9;
+    }
+
+    .grupo-input input,
+    .grupo-input select {
+        background-color: white;
+        color: black;
+    }
+}
