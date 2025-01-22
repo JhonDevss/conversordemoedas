@@ -71,7 +71,7 @@ function App() {
         </div>
       </div>
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <p>Desenvolvido com:</p>
         <div className="logos">
           <a href="https://vite.dev/" target="_blank" rel="noopener noreferrer">
@@ -81,7 +81,7 @@ function App() {
           <img src={reactLogo} alt="React Logo" className="logo" />
           </a>
         </div>
-      </footer>
+      </footer> */}
     </div>
   )
 }
